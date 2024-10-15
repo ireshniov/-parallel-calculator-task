@@ -5,7 +5,7 @@ FROM node:${NODE_VERSION}-${DEBIAN_VERSION}-slim as development
 
 WORKDIR /calculator-app
 
-EXPOSE 3000
+EXPOSE 8080
 
 ENTRYPOINT ["bash", "-c"]
 
