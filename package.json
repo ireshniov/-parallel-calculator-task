@@ -6,8 +6,8 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "evaluator:start:dev": "cd ./evaluator && npm run start:dev && cd ..",
-    "calculator:start:dev": "cd ./calculator && npm run start:dev && cd ..",
-    "start": "sh setup.sh && docker-compose up -d"
+    "evaluator:start:dev": "cd ./evaluator && npm run start:ts:watch && cd ..",
+    "calculator:start:dev": "cd ./calculator && npm run start:ts:watch && cd ..",
+    "start": "sh setup.sh && docker-compose up -d --build"
   }
 }
