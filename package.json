@@ -1,0 +1,13 @@
+{
+  "name": "parallel-calculator-task",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "evaluator:start:dev": "cd ./evaluator && npm run start:dev && cd ..",
+    "calculator:start:dev": "cd ./calculator && npm run start:dev && cd ..",
+    "start": "sh setup.sh && docker-compose up -d"
+  }
+}
