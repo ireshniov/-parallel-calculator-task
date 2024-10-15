@@ -3,9 +3,9 @@
 * docker-compose
 
 #### Start
-Will setup and start calculator & evaluator services
+Setup and start calculator and evaluator services in shared network
 ```shell
-npm run start
+sh start.sh
 ```
 
 #### Evaluation
