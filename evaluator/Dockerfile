@@ -5,7 +5,7 @@ FROM node:${NODE_VERSION}-${DEBIAN_VERSION}-slim as development
 
 WORKDIR /evaluator-app
 
-EXPOSE 3000
+EXPOSE 3001
 
 ENTRYPOINT ["bash", "-c"]
 
